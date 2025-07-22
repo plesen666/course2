@@ -1,4 +1,9 @@
 package main.examinerservice.exeption;
 
-public class ExceptionIfAvailable {
+public class ExceptionIfAvailable extends IllegalArgumentException {
+    public ExceptionIfAvailable(String s) {
+        super(s);
+    }
+    public ExceptionIfAvailable() {
+    }
 }

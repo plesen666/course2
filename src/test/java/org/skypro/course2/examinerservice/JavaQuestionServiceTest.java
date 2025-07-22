@@ -1,4 +1,4 @@
-ackage pro.sky.java.course2.examinerservice;
+package pro.sky.java.course2.examinerservice;
 
 
 import org.junit.jupiter.api.Test;

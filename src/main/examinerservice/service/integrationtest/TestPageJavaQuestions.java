@@ -1,4 +1,4 @@
-package pro.sky.java.course2.examinerservice.service.integrationtest;
+package main.examinerservice.service.integrationtest;
 
 import org.springframework.stereotype.Component;
 import pro.sky.java.course2.examinerservice.domain.Question;
@@ -63,3 +63,4 @@ public class TestPageJavaQuestions {
         };
         return stream(questions).collect(Collectors.toSet());
     }
+}
